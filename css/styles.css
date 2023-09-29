@@ -33,13 +33,15 @@ img{
 
 .header {
     border-bottom: 1px solid #e7e9fc;
-    display: flex;
+   
 }
 
 .container {
+    display: flex;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+    outline: 2px solid red;
 }
 
 .header-navigation {
@@ -69,6 +71,7 @@ img{
 .header-menu{
     display: flex;
     gap: 40px;
+    padding-left: 76px;
 }
 
 .header-menu-item {
@@ -91,10 +94,14 @@ img{
 
 .header-address {
     display: flex;
-    gap: 40px;
+    
 }
 
-.header-gryp-list{}
+.header-gryp-list{
+    display: flex;
+    gap: 40px;
+    
+}
 
 .header-info-list {}
 
