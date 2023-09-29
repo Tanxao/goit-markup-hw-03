@@ -307,17 +307,16 @@ img{
     row-gap: 48px;
 }
 
-.portfolio-item {
+.portfolio-item {}
+
+.portfolio-imale {
     width: calc((100% - 48px) / 3);
 }
-
-.portfolio-imale {}
 
 .container-top {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
 
 .portfolio-subtitle {
@@ -326,6 +325,7 @@ img{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .portfolio-text {
@@ -346,7 +346,6 @@ img{
 }
 
 .footer-logo {
-    display: inline-block;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -358,12 +357,9 @@ img{
     bottom: 140px 0 100px 0;
 }
 
-.footer-italicteam-image{
-    color: #f4f4fd;
-}
-
 .footer-span{
     color: #f4f4fd;
+    display: inline-block;
 }
 
 .footer-text {
