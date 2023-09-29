@@ -216,15 +216,13 @@ img{
 
 .main-item-text {
     width: 264px;
-    color: var(--SLATE, #434455);
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    /* 150% */
-    letter-spacing: 0.32px;
-    font-family: Roboto;
+     color: var(--SLATE, #434455);
+     font-style: normal;
+     font-weight: 400;
+     line-height: 24px;
+     letter-spacing: 0.32px;
+     font-size: 16px;
 }
-
 /*=====================================*/
 
 /*===================TEAM==================*/
@@ -299,14 +297,28 @@ img{
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
-    
+
 }
 
-.portfolio-list {}
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
 
-.portfolio-item {}
+.portfolio-item {
+    width: calc((100% - 48px) / 3);
+}
 
 .portfolio-imale {}
+
+.container-top {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
 
 .portfolio-subtitle {
     font-weight: 500;
@@ -330,6 +342,7 @@ img{
 
 .footer {
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 
 .footer-logo {
@@ -340,6 +353,9 @@ img{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
+    bottom: 140px 0 100px 0;
 }
 
 .footer-italicteam-image{
@@ -351,9 +367,16 @@ img{
 }
 
 .footer-text {
-    line-height: 1.5;
-    color: #F4F4FD;
-    letter-spacing: 0.02em;
+    max-width: 264px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.32px;
+    color: var(--CLOUD, #F4F4FD);
+   
+    
 }
 
 /*=====================================*/
