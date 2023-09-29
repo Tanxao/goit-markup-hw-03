@@ -44,6 +44,7 @@ img{
     outline: 2px solid red;
 }
 
+
 .header-navigation {
     display: flex;
     align-items: center;
@@ -93,17 +94,19 @@ img{
 }
 
 .header-address {
-    display: flex;
-    
+   
 }
 
 .header-gryp-list{
     display: flex;
     gap: 40px;
-    
+    padding-left: 100px;
 }
 
-.header-info-list {}
+.header-info-list {
+
+}
+
 
 .header-info-post{
     color: var(--SLATE, #434455);
