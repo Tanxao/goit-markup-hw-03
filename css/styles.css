@@ -6,7 +6,9 @@ body {
 
 /*===================HEADER==================*/
 
-p, h1, h2, h3, h4, h5, h6, {
+
+
+p, h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -33,17 +35,22 @@ img{
 
 .header {
     border-bottom: 1px solid #e7e9fc;
-   
+}
+
+.header-van {
+    display: flex;
+    display: block;
 }
 
 .container {
-    display: flex;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
     outline: 2px solid red;
 }
-
+.container-header {
+    display: flex;
+}
 
 .header-navigation {
     display: flex;
@@ -75,7 +82,7 @@ img{
     padding-left: 76px;
 }
 
-.header-menu-item {
+.header-menu-item {}
    
 
 .header-menu-link {
@@ -84,9 +91,7 @@ img{
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.32px;
-    font-size: 16px;
-    padding: 24px 0;
-    }
+    font-size: 16px; 
 }
 
 .header-menu-link:hover,
@@ -95,14 +100,13 @@ img{
 }
 
 .header-address {
-    display: flex;
-    gap: 40px;
+    margin-left: auto;
 }
 
 .header-gryp-list{
     display: flex;
     gap: 40px;
-    padding-left: 100px;
+    
 }
 
 .header-info-list {
@@ -142,6 +146,7 @@ img{
     line-height: 60px;
     letter-spacing: 1.12px;
     color: var(--WHITE, #FFF);
+    margin: 0 auto;
 }
 
 .hero-italicteam-image{
@@ -158,9 +163,7 @@ img{
     line-height: 24px;
     letter-spacing: 0.64px;
 
-    display: inline-flex;
     align-items: flex-start;
-    gap: 10px;
     border-radius: 4px;
     background-color: var(--IRIS, #4D5AE5);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -168,6 +171,8 @@ img{
     display: block;
     height: 56px;
     cursor: pointer;
+    margin: 0 auto;
+    margin-top: 48px;
 }
 
  .hero-button:hover,
@@ -236,7 +241,6 @@ img{
 }
 
 .team-title {
-    margin-bottom: 72px;
     color: var(--NAVY-BLUE, #2E2F42);
     font-size: 36px;
     font-style: normal;
@@ -245,6 +249,7 @@ img{
     letter-spacing: 0.72px;
     text-transform: capitalize;
     text-align: center;
+    margin-bottom: 72px;
 }
 
 .team-list {
@@ -253,7 +258,7 @@ img{
 }
 
 .team-item {
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
