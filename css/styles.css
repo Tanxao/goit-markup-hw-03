@@ -81,9 +81,7 @@ img{
     padding-left: 76px;
 }
 
-.header-menu-item {
-    padding: 24px 0;
-}
+.header-menu-item {}
    
 
 .header-menu-link {
@@ -93,6 +91,7 @@ img{
     line-height: 24px;
     letter-spacing: 0.32px;
     font-size: 16px; 
+    padding: 24px 0;
 }
 
 .header-menu-link:hover,
