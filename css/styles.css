@@ -40,7 +40,6 @@ img{
 .header-van {
     display: flex;
     display: block;
-    padding: 24px 0;
 }
 
 .container {
@@ -82,7 +81,9 @@ img{
     padding-left: 76px;
 }
 
-.header-menu-item {}
+.header-menu-item {
+    padding: 24px 0;
+}
    
 
 .header-menu-link {
@@ -101,6 +102,7 @@ img{
 
 .header-address {
     margin-left: auto;
+    padding: 24px 0;
 }
 
 .header-gryp-list{
